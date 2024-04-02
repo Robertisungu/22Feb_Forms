@@ -1,0 +1,53 @@
+body{
+margin: 10px;
+background-image: url("programmer.jpg");
+image-resolution: from-image 10dpi;
+border-image-repeat: no-repeat;
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 5px 30px 5px 30px;
+margin: auto;
+color: blue;
+font-weight: bolder;
+}
+
+label{
+font-style: normal;
+font-size-adjust: inherit;
+}
+
+legend{
+font-style: italic;
+text-decoration: wavy;
+text-decoration-color: rgb(255, 0, 55);
+}
+
+.form{
+    width: 60%;
+    max-width: 400px;
+    margin: 10px 20px 10px 20px;
+}
+form{
+    display: block;
+    box-shadow: -5px -5px 10px rgba(8, 66, 226, 0.29),5px 5px 15px rgb(0 0 0 /60%);
+    padding: auto;
+    color: rgb(41, 4, 253);
+    border-radius: 0.25rem;
+    font-size: larger;
+    transition: all .5s;
+}
+.inForm{
+    text-align: center;
+}
+#personalInformation{
+    text-align: left;
+    font-size: larger;
+    text-transform: uppercase;
+}
+#contacts{
+    
+}
+#submit{
+    
+}
+#units{}
